@@ -104,6 +104,18 @@ p {
   padding: 10px;
   margin: 10px 15px 40px;
 }
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid var(--dark-grey);
+  border-radius: 15px;
+  transition: all 150ms ease-in-out;
+}
+.btn:hover {
+  transform: scale(0.98);
+}
 /* Main */
 .main {
   grid-area: main;
