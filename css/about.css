@@ -58,7 +58,7 @@ figcaption {
   margin: 0 auto;
   flex-direction: column;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 .profile-image {
   height: 150px;
@@ -116,10 +116,6 @@ figcaption {
   h1 {
     font-size: 30px;
   }
-  .profile-card {
-    flex-direction: row;
-    text-align: left;
-  }
   .profile-name {
     font-size: 30px;
   }
@@ -132,5 +128,11 @@ figcaption {
   }
   .about-blog p {
     padding: 20px;
+  }
+}
+@media (min-width: 750px) {
+  .profile-card {
+    flex-direction: row;
+    text-align: left;
   }
 }
