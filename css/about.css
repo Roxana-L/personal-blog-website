@@ -28,6 +28,22 @@ h1 {
   font-size: 25px;
   font-weight: 300px;
   line-height: 1.2;
+  margin-bottom: 20px;
+}
+.quote {
+  padding: 10px;
+  background: var(--light-pink);
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+blockquote {
+  margin: 0 auto;
+}
+blockquote p {
+  font-size: 18px;
+}
+figcaption {
+  text-align: right;
 }
 .about-blog p {
   padding: 15px;
@@ -35,14 +51,14 @@ h1 {
 .profile-card {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-  max-width: 600px;
+  max-width: 700px;
   display: flex;
   background: #faf3f3;
-  padding: 20px;
+  padding: 30px;
   margin: 0 auto;
   flex-direction: column;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 .profile-image {
   height: 150px;
@@ -87,6 +103,7 @@ h1 {
   opacity: 0.8;
   font-weight: 300px;
   margin-bottom: 0;
+  padding: 10px;
 }
 .profile-text {
   text-align: left;
