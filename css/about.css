@@ -1,0 +1,12 @@
+.wrapper {
+  display: grid;
+  height: 90vh;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas:
+    "navbar"
+    "about"
+    "footer";
+}
+.about {
+  grid-area: about;
+}
