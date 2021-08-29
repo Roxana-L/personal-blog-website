@@ -1,0 +1,20 @@
+@media (min-width: 851px) {
+  .navbar {
+    height: 70px;
+  }
+  .navbar .flex {
+    flex-direction: row;
+  }
+  .navbar ul {
+    background-color: transparent;
+  }
+  .footer {
+    height: 70px;
+  }
+  .footer ul {
+    background-color: transparent;
+  }
+  .footer .flex {
+    flex-direction: row;
+  }
+}
