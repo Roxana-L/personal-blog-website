@@ -2,8 +2,11 @@
 .footer {
   grid-area: footer;
   background-color: var(--light-grey);
-  height: 100px;
+  height: 130px;
   transition: all 150ms ease-in-out;
+}
+.footer p {
+  font-size: 12px;
 }
 .footer ul {
   display: flex;
